@@ -1,0 +1,28 @@
+.projectsBlocks {
+    padding: 50px 0;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,0.8743872549019608) 0%, rgba(253,219,45,0.87718837535014) 100%);
+}
+
+.projectTitle {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.projects {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    /* align-items:center; */
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1296px) {
+    .projects {
+        justify-content: center;
+    }
+}

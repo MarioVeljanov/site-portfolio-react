@@ -1,0 +1,5 @@
+.footerBlock {
+    min-height: 100vh;
+    background: -webkit-linear-gradient(90deg,#7ceece,#d7f7d4,#a8d5ff);
+    background: linear-gradient(90deg,#7ceece,#d7f7d4,#a8d5ff); 
+}

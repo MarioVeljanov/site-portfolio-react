@@ -1,0 +1,27 @@
+.skillsBlock {
+    min-height: 100vh;
+    padding: 50px 0;
+    background: -webkit-linear-gradient(90deg,#682e46,#b6715b,#e0ca80); /* Chrome 10-25, Safari 5.1-6 */ 
+    background: linear-gradient(90deg,#682e46,#b6715b,#e0ca80); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.subtitleContacts {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.container {
+    width: 70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    margin-bottom: 30px;
+}
+
+.container textarea {
+    margin: 0px;
+}
